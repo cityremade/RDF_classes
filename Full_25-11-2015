@@ -623,7 +623,7 @@ def mainTransport(source, ttlpath, className):
         rdf.createTubeObj(source)
     elif className == 'TimeBetween':
         rdf.createTubeTimeObj(source)
-    elif className = 'Train':
+    elif className == 'Train':
         rdf.createTrainObj(source)
     elif className == 'Bus':
         rdf.createBusStopObj(source)
